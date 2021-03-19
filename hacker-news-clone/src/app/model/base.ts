@@ -1,6 +1,7 @@
 import { BaseType } from './base-type';
 
 export interface Base{
+  [index : string] : number | string | BaseType | number[] | boolean | undefined
   //The Item's unique Id : required
   id          :    number;
 
@@ -23,6 +24,6 @@ export interface Base{
   dead?        :    boolean;
 
   //optional : the ids of the items comments in ranked display order
-  kids?          : int[];
+  kids?          : number[];
 
 }

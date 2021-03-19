@@ -1,1 +1,1 @@
-export type BaseType  = "job" | "story" | "comment" | "poll" "pollopt";
+export type BaseType  = "job" | "story" | "comment" | "poll" | "pollopt";
